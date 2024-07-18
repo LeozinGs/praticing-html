@@ -3,6 +3,7 @@
 @import url(./headline.css);
 @import url(./project.css);
 @import url(./footer.css);
+@import url(./about.css);
 
 :root {
 
@@ -28,7 +29,8 @@ body {
 }
 
 .header,
-.main {
+.main,
+.about__main {
     padding: 7em 10em;
 }
 

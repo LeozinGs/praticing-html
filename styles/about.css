@@ -1,0 +1,84 @@
+.about__headline {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 6em 0;
+}
+
+.about__title {
+    font-size: 65px;
+    font-weight: 550;
+    padding-bottom: 1em;
+}
+
+.about__text {
+    font-size: 40px;
+    color: var(--cinza2);
+    line-height: 1.3em;
+    padding: 1em 0;
+}
+
+.about__image {
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+.about__photo {
+    width: 60%;
+    justify-self: flex-end;
+    align-self: center;   
+}
+
+.about__abilities {
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+
+.abilities__software,
+.abilities__skills {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    padding: 3em 0;
+    font-size: 22px;
+    line-height: 1.3em;
+    font-weight: 500;
+}
+
+.abilities__title {
+    text-decoration: underline;
+}
+
+.software__item {
+    padding: .7em 0;
+}
+
+.about__contact {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 5em 0;
+}
+
+.contact__links {
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+
+.contact__title,
+.link__email {
+    font-size: 35px;
+}
+
+.link__email {
+    margin-bottom: 1em;
+}
+
+.link__email,
+.link__resume {
+    text-decoration: none;
+    color: var(--preto);
+}
+
+.link__resume {
+    font-size: 20px;
+    align-self: flex-end;
+}
+
