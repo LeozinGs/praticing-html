@@ -1,0 +1,19 @@
+.headline {
+    display: flex;
+    justify-content: space-between;
+}
+
+.headline__title {
+    font-size: 65px;
+    font-weight: 550;
+    padding: 0 0 2em 0;
+}
+
+.headline__description {
+    font-size: 30px;
+    font-weight: 500;
+    color: var(--cinza2);
+    margin-right: 10%;
+    justify-self: center;
+    align-self: center;
+}

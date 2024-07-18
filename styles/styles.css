@@ -1,0 +1,32 @@
+@import url(./reset.css);
+@import url(./header.css);
+@import url(./headline.css);
+@import url(./project.css);
+
+:root {
+
+    --preto: #181717;
+    --cinza: #6d6d6d;
+    --cinza2: #606060;
+    --cinza3: #9a9a9a;
+    --branco: #f3f3f3;
+
+    --fonte-principal: "Inter";
+
+}
+
+body {
+
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+    background-color: var(--branco);
+    color: var(--preto);
+
+}
+
+.header,
+.main,
+.footer {
+    padding: 7em 10em;
+}

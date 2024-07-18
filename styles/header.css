@@ -1,0 +1,22 @@
+
+.header,
+.header__options {
+    display: flex;
+    justify-content: space-between;
+}
+
+.options__item {
+    text-align: center;
+    padding: 1em;
+}
+
+.options__link {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--preto);
+    text-decoration: none;
+}
+
+.header__logo {
+    width: 4%;
+}

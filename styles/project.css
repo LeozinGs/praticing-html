@@ -1,0 +1,50 @@
+.project {
+    display: flex;
+    justify-content: space-between;
+    padding: 5em 0;
+}
+
+.project__description {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.project__name {
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: uppercase
+}
+
+.project__text {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 1em 0;
+}
+
+.project__text__description {
+    color: var(--cinza2);
+    font-weight: 500;
+}
+
+.project__link {
+   font-size: 20px;
+   font-weight: 500;
+   color: var(--preto);
+   margin-top: 45%;
+}
+
+.grey {
+    color: var(--cinza2);
+}
+
+
+.project__image {
+    margin-right: 10%;
+    justify-self: center;
+    align-self: center;
+}
+
+.project__photo {
+    width: 130%;
+}
