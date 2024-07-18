@@ -3,4 +3,4 @@
 ![Banner preview do site](Banner.PNG)
 
 
-[Design link in Figma](https://www.figma.com/community/file/1095695980466714349/portfolio-template-edit-this-portfolio-and-export-it-as-html-get-your-portflio-live-in-no-time)
+[Design link in Figma](https://www.figma.com/community/file/829474905036527548/portfolio-website-sample)
