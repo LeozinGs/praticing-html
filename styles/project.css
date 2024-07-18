@@ -5,9 +5,8 @@
 }
 
 .project__description {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
+    display: grid;
+    grid-template-rows: 10% 20% 20% 50%;
 }
 
 .project__name {
@@ -19,7 +18,6 @@
 .project__text {
     font-size: 20px;
     font-weight: 500;
-    padding: 1em 0;
 }
 
 .project__text__description {
@@ -31,7 +29,8 @@
    font-size: 20px;
    font-weight: 500;
    color: var(--preto);
-   margin-top: 45%;
+   grid-row: span 2;
+   align-self: flex-end;
 }
 
 .grey {
@@ -47,4 +46,10 @@
 
 .project__photo {
     width: 130%;
+}
+
+.section__divider {
+    background-color: var(--preto); 
+    height: 2px;
+    border: 0; 
 }

@@ -1,0 +1,15 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__title {
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--azul);
+}
+
+.footer__options {
+    display: flex;
+}

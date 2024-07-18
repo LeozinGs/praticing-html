@@ -2,6 +2,7 @@
 @import url(./header.css);
 @import url(./headline.css);
 @import url(./project.css);
+@import url(./footer.css);
 
 :root {
 
@@ -10,6 +11,7 @@
     --cinza2: #606060;
     --cinza3: #9a9a9a;
     --branco: #f3f3f3;
+    --azul: #2429AF;
 
     --fonte-principal: "Inter";
 
@@ -26,7 +28,10 @@ body {
 }
 
 .header,
-.main,
-.footer {
+.main {
     padding: 7em 10em;
+}
+
+.footer {
+    padding: 5em 10em;
 }
